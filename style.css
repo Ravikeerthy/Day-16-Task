@@ -1,0 +1,32 @@
+.container{
+    /* background-color: rgb(181, 218, 216); */
+    height: 500px;
+}
+body{
+    text-align: center;
+    background-image: url(./media/flag.png);
+    background-size: cover;
+}
+
+button{
+    width: 900px;
+    height: 50px;
+    /* background-color: rgb(111, 180, 126); */
+    margin: 20px;
+    font-size: 40px;
+    box-shadow: 5px 5px 20px;
+    border-radius: 15px;
+    animation-name: colors;
+    animation-duration: 20s;
+}
+
+@keyframes colors{
+    0% { background-color: red;}
+    40% { background-color: white;}
+    60% { background-color: green;}
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(227, 232, 140);
+}
